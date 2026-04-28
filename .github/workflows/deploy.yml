@@ -13,7 +13,7 @@ jobs:
         uses: appleboy/ssh-action@v1.0.0
         with:
           host: 0.tcp.sa.ngrok.io
-          port: 19149
+          port: 21587
           username: beckan
           key: ${{ secrets.SSH_KEY }}
           script: |
